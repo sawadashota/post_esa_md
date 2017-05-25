@@ -13,7 +13,7 @@ def set_client
 end
 
 def file_list
-  Dir.glob("**/*.md")
+  Dir.glob("./markdowns/**/*.md")
 end
 
 def post(name, body_md)
